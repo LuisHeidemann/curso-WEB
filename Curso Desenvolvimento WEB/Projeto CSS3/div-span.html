@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Div e Span</title>  <!-- div utiliza-se para dividir o site em partes e cria um "container" para agrupar elementos visuais e configs, enquanto o SPAN aplica somente à linha -->
+
+		<style type="text/css">  
+
+			#topo{   					/* criando id topo */
+				background: skyblue;
+			}	
+			#conteudo{
+				background: greenyellow;
+			}
+			#rodape{
+				background: gainsboro;
+			}
+			#assinatura{
+				background: goldenrod;
+			}
+			.produto{
+				background: firebrick;
+				margin: 10px;   /* padding = espaçamento */
+			}
+
+		
+		</style> <!-- dessa maneira que se utiliza o CSS para aplicar em toda a pagina. SELETORES CSS (tag q se deseja formatar {propriedade: valor}. O PONTO define que é uma classe (qualquer nome) a CERQUILHA define Ids -->
+
+	</head>
+
+	<body >  
+
+		<div id="topo"> <!-- chamando a id de configuração de topo do site -->
+			
+			<img src="Imagens/amazon logo.png" width="200">
+			<ul>
+				<li>Home</li>
+				<li>Produto</li>
+				<li>Contato</li>
+			</ul>
+
+		</div>
+
+		<div id="conteudo">
+			<div class="produto">    <!-- como quer aplicar a msm config nas 3 divs, utilizar class-->
+				Produto 1
+			</div>
+			<div class="produto">
+				Produto 2
+			</div>
+			<div class="produto">
+				Produto 3
+			</div>
+		</div>
+
+		<div id="rodape">
+			
+			Todos os direitos reservados &reg;
+
+		</div>
+
+		<span id="assinatura">
+			
+			Luis Antonio
+
+		</span>
+		<span class="">
+			
+			Mello Heidemann
+
+		</span>
+
+	</body>
+
+</html>

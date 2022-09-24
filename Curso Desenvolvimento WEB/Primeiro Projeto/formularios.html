@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulários</title>
+</head>
+
+<body>
+	<a href="http://www.google.com.br">  <!-- como fazer hyperlink com sites na WEB. utilizar sempre http:// -->
+ 		GOOGLE
+ 		</a><br>
+ 		<a href="index.html">
+ 			Home
+ 		</a><br>
+ 		<a href="contato.html">
+ 			Contato
+ 		</a> <br> <!-- Tag a de ANCHOR - ancora-> serve para fazer os links Href = HYPERLINK de REFERENCIA -->
+ 		<a href="tabela.html">
+ 			Tabela
+ 		</a><br>
+ 		<a href="formularios.html">
+ 			Formulários</a><br>
+ 		<a href="caracteres especiais.html"> 
+ 			Caracteres Especiais</a><br>
+
+ 	<h2>Login</h2>
+
+ 	<form action="processa.php"> <!--tag de formulário. aqui dentro que vão os componentes. para definir para onde quer ser enviado os dados, utiliza-se o action e diz para onde vai --> 
+ 		
+ 		Login:<br>
+ 		<input type="text" name="login"><br> <!-- type: tipo de componente(no caso texto) e nome de recuperação dos dados(q o programa ira chamar)-->
+
+ 		Senha:<br>
+ 		<input type="password" name="senha"><br> <!-- Type: password (no caso senha -> esconde a senha) e nome de recuperação dos dados -->
+
+ 		<input type="button" value="Entrar"><br> <!-- ira colocar input tipo botao. nao precisa name pq nao vai recuperar info. value é o nome q vai dentro do botão --> 
+
+ 		<input type="submit" value="Submeter"> <!-- colocar input tipo submit para poder enviar os dados escritos. -->
+
+ 	</form>
+
+ 	<h2>Cadastro</h2>
+
+ 	<form>
+
+	 	Login:<br>
+	 		<input type="text" name="login"><br><br>
+
+	 	Sexo: <br>
+	 	<input type="radio" name="sexo" value="Masc"> Masculino<br> <!-- input tipo radio para escolher entre pré seleções -->
+	 	<input type="radio" name="sexo" value="Fem"> Feminino<br><br> <!-- colocando o mesmo name, apenas 1 pode ser escolhido(são agrupados pelo name). com o value, pode-se recuperar a informação -->
+
+	 	Interesses:<br>
+	 	<input type="checkbox" name="Interesses"> Futebol <br>
+	 	<input type="checkbox" name="Interesses"> Cinema <br>
+	 	<input type="checkbox" name="Interesses"> Video game <br><br>
+
+		Estado<br>
+		<select name="Estado">  <!-- escolher apenas uma opção em uma lista de opções. para recuperar a info, utiliza-se o name-->
+			<option value="PR">PR</option>	 <!--opção para escolha. com o value se sabe qual foi escolhido-->
+			<option value="SC">SC</option>	
+			<option value="RS">RS</option>	
+		</select><br><br>
+
+		Observações: <br>
+			<textarea>Obs			
+			</textarea><br><br> <!-- opção para escrever mais do q o input text -->
+
+		<input type="submit" value="Cadastrar">
+
+	</form>
+
+
+
+</body>
+	
+</html>

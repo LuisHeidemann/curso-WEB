@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Tabela</title>
+</head>
+
+<body>
+	
+ 	<a href="http://www.google.com.br">  <!-- como fazer hyperlink com sites na WEB. utilizar sempre http:// -->
+ 		GOOGLE
+ 		</a><br>
+ 		<a href="index.html">
+ 			Home
+ 		</a><br>
+ 		<a href="contato.html">
+ 			Contato
+ 		</a> <br> <!-- Tag a de ANCHOR - ancora-> serve para fazer os links Href = HYPERLINK de REFERENCIA -->
+ 		<a href="tabela.html">
+ 			Tabela
+ 		</a><br>
+ 		<a href="formularios.html">
+ 			Formulários</a><br>
+ 		<a href="caracteres especiais.html"> 
+ 			Caracteres Especiais</a><br>
+
+ 	<h2>Tabela de Produtos</h2>
+
+ 	<table border = "10" width="50%">  <!-- Estrutura para criar uma tabela. BORDER diz a qtde de pixels que a borda deve ter. width diz a largura da coluna em pixels ou pode ser feito em porcentagem de preenchimento do navegador. Ex>: width = "300" ou width = "100%"-->
+
+ 		<tr> <!-- a tag tr significa TABLE ROW ou linha da coluna -->
+
+ 			<th>  <!-- a tag TH significa TABLE HEADER ou cabeçalho da coluna -->
+ 				Código</th>	
+ 			<th>Produto</th>
+ 			<th>Preço</th>
+ 			<th>Foto</th>
+ 			<th>Link de compra</th>
+ 		</tr>
+
+ 		<tr>  <!-- estrutura de linha--> 
+ 			<td>001</td> 
+ 			<td>Notebook</td>
+ 			<td>R$ 2.500,99</td>
+ 			<td><img src="imagens/Notebook.jpg" width="30%"></td>
+ 			<td><a href="https://www.mercadolivre.com.br">Comprar</a></td>
+ 		</tr>
+
+ 		<tr>  <!-- estrutura de linha-->
+ 			<td>002</td>
+ 			<td>Mouse</td>
+ 			<td>R$ 20,99</td>
+ 			<td><img src="imagens/Mouse.jpg" width="200"></td>
+ 			<td><a href="https://www.mercadolivre.com.br">Comprar</a></td>
+ 		</tr>
+
+ 		<tr>  <!-- estrutura de linha-->
+ 			<td>003</td>
+ 			<td>Monitor</td>
+ 			<td>R$ 450,97</td>
+ 			<td><img src="imagens/Monitor.jpg" width="300"></td>
+ 			<td><a href="https://www.mercadolivre.com.br">Comprar</a></td>
+ 		</tr>
+
+ 		<tr>
+ 			<td rowspan="2">Mescla de linhas</td>  <!-- rowspan é a tag q diz quantas linhas vao ser ocupadas -->
+ 			<td>Cupom</td>
+ 			<td>- R$ 10,00</td>
+ 			<td></td> <!-- coloca-se essa tag para nao ter um espaço "em branco" na tabela-->
+ 			<td></td> <!-- coloca-se essa tag para nao ter um espaço "em branco" na tabela-->
+ 		</tr>
+
+ 		<tr>
+ 			<td></td>	
+ 			<td colspan="4">Teste de mescla de coluna</td>  <!--Colspan é a tag que diz a extensão das colunas(qtas colunas ocupará) -->
+ 		</tr>
+ 			
+ 			
+ 	</table>
+
+
+</body>
+</html>

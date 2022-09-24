@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Cor e Imagem de Fundo</title>
+
+		<style type="text/css">  
+			
+			.fundo{
+				/* background-color: #22A175;	/* cor de fundo */
+				/*color: #D1D3E1;  			/* cor do texto */
+				background:  blue url('imagens/yoshi.png') no-repeat fixed left center;  /* todas as configs abaixo em somente 1 linha de código (cor de fundo, end da imagem, se repete, fixo ou scroll, e posicao) */
+
+			} 
+
+			body{
+
+				/*background-image: url('Imagens/yoshi.png');	/* a imagem é repetida varias vezes por nao ocupar todo o espaço do navegador */
+				background-repeat: no-repeat ;				/* define como que quer a repetição (com/sem repetiçao, repete eixo X, repete eixo Y e  ) */
+				background-attachment: fixed;				/* quando utiliza FIXED, com a barra de rolagem, a imagem fica fixa no plano de fundo. quando se utiliza SCROLL, a imagem usa o scroll para se deslocar. */
+				background-position: center center ;				/* quando se escolhe a posição, ele vai se alinhar à parte escolhida, no caso BODY. Configuração horizontal, depois vertical (Left,Right,Center/ Top, Center, Botton*/
+
+			}
+			
+		</style> <!-- dessa maneira que se utiliza o CSS para aplicar em toda a pagina. SELETORES CSS (tag q se deseja formatar {propriedade: valor}. O PONTO define que é uma classe (qualquer nome e pode ser reutilizado) a CERQUILHA define Ids e so pode ser usado 1x-->
+	</head>
+	<body class="fundo">
+
+		<h1 >Conteúdo de título</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br>
+		<br><br><br><br><br><br><br><br>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</body>
+
+</html>
