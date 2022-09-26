@@ -17,5 +17,33 @@
     margin-left: 20px;
     margin-bottom: 20px;  */
 
-    margin: 0.52%;  /* espaçamento externo em todas as bordas
+    margin: 0.52%;  /* espaçamento externo em todas as bordas, como no padding acima */
+}
+
+.layout{
+    border: 1px solid red;
+    background: grey;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.float{  /* usar caixa/elemento flutuante */
+    border: 1px solid red;
+    background: greenyellow;
+    padding: 30px;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    
+    float: right ;  /*pode usar left, right, none*/
+}
+.clear{
+
+    clear: both;  /*pode usar left, right, none, both*/;
+}
+.principal{
+    border: 5px solid blue;
+    background-color: grey;
 }
