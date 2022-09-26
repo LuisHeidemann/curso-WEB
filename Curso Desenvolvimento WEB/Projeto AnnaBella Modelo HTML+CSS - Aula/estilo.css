@@ -7,7 +7,7 @@ a{     /*todos os links do site terão essa formatação */
 	text-decoration: none;
 	font-weight: bold;
 	border: 0px solid blue;
-	padding: 1%;
+	padding: 5%;
 }
 h1{
 	color: #828271;

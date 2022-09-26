@@ -1,0 +1,21 @@
+/* modelo de caixa*/ 
+
+.conteudo{    /*para declarar a classe usa-se PONTO! */
+    border: 1px solid red;
+    padding-top: 20px;   /* os padding dao uma distancia interna da caixa, adicionando os px*/
+    padding-right: 20px;    
+    padding-left: 20px;  
+    padding-bottom: 20px; 
+    width: 150px ;  /* largura da caixa + os padding adicionado */
+    
+    /* padding: 20px 20px 20px 20px;  /* espaçamento interno em todas as bordas: Superior direita baixo esquerda (sentido horário)*/
+
+    /* padding: 20px /* padding de 20px em todas as bordas */
+
+    /* margin-top: 20px;  /* espaçamento externo */
+    /*margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;  */
+
+    margin: 0.52%;  /* espaçamento externo em todas as bordas
+}
