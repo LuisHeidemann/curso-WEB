@@ -36,7 +36,7 @@
         * Tamanho dos textos
 
 ## Projeto CSS3 - Intermediário
-      __Ver JPG Modelo de Caixa__
+   #### Ver JPG Modelo de Caixa
     Utiliza tags do CSS:    
         * Utilização de containers (div)
         * Elementos Flutuantes
