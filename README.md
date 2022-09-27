@@ -6,19 +6,12 @@
     Possui o básico de HTML: 
 
         * como fazer links entre as páginas e páginas externas
-
         * Como dar nome para a página que está sendo visualizada "na aba"
-
         * Como incluir links e imagens
-
         * Como utilizar os Headers -> Cabeçalhos de texto
-
         * Como utiliar a formatação pelo HTML
-
         * Como utilizar tabelas
-
         * Como utilizar Formulários
-        
         * Como utilizar Caracteres Especiais
 
 
@@ -42,7 +35,7 @@
         * Formatação interna das fontes
         * Tamanho dos textos
 
-*Projeto CSS3 - Intermediário
+## Projeto CSS3 - Intermediário
     Utiliza tags do CSS:    ** Ver JPG Modelo de Caixa **
         * Utilização de containers (div)
         * Elementos Flutuantes
