@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Inline - Block e Inline-block</title>
+
+    <style>
+
+        .borda1{
+            border: 1px solid royalblue;
+        }
+        .bloco_modificado{
+            border: 1px solid royalblue;
+            display: inline;
+        }
+        .inline_modificado{
+            border: 1px solid royalblue;
+            display:block;
+        }
+        .inline_block{
+            border: 1px solid royalblue;
+            display:inline-block;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <h1 class="borda1">Bloco 1</h1>  <!-- exemplo de elemento block. utiliza toda a tela-->
+    <h1 class="borda1">Bloco 2</h1>
+    <h1 class="bloco_modificado">Bloco 3</h1>  <!-- exemplo de elemento block alterado p/ inline -->
+    <h1 class="bloco_modificado">Bloco 4</h1> <br>
+
+
+    <span class="borda1">inline1</span> 
+    <span class="borda1">inline2 teste de largura</span> <!--largura da caixa definida pelo tamanho do conteúdo-->
+    <span class="inline_modificado">inline3</span> 
+    <span class="inline_modificado">inline4 </span>
+
+
+    <span class="inline_block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio sequi cupiditate quod nemo voluptatibus nam, quam fugiat quasi itaque mollitia, nesciunt sint enim esse eum neque corrupti quaerat aspernatur? </span>
+    <span class="inline_block">inline5 </span>  <!--Com o display inline-block, ele se comporta como block -->
+
+</body>
+</html>

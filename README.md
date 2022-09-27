@@ -5,7 +5,7 @@
 ## Primeiro Projeto
     Possui o básico de HTML: 
 
-        * como fazer links entre as páginas e páginas externas
+        * Como fazer links entre as páginas e páginas externas
         * Como dar nome para a página que está sendo visualizada "na aba"
         * Como incluir links e imagens
         * Como utilizar os Headers -> Cabeçalhos de texto
@@ -36,8 +36,11 @@
         * Tamanho dos textos
 
 ## Projeto CSS3 - Intermediário
-   #### **Ver JPG Modelo de Caixa para exemplo visual**
+   ####  ATENÇÃO!!! Ver JPG Modelo de Caixa para exemplo visual
     Utiliza tags do CSS:    
         * Utilização de containers (div)
-        * Elementos Flutuantes
-
+        * Elementos Flutuantes (float)
+        * Comando Clear para quebra de fluxo de elementos flutuantes
+        * Elementos inline, block e inline-block -> posicionamento entre blocos
+        * Posicionamento estático e relativo de blocos/containers
+        * Posicionamento absoluto e fixo (utiliza-se para chats, menus e outros itens no site)

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento (static, relative, absolute e fixed)</title>
+
+    <style>
+
+        body{
+            background: #007fc7;
+        }
+        h1{
+            position: static;  /* essa é a posição padrao dos blocos -> um embaixo do outro*/
+        }
+        p{
+            position: static;
+            width: 400px;
+        }
+        #container{
+            background: #fff;
+            width: 800px;
+            margin: 10px auto; /*Margem de 10px em cima e embaixo e margem automatica para os lados -> centraliza o container*/
+            padding: 10px;  /* Distancia interna do container*/ 
+            position: relative; /* utilizado para alinhar os elementos de position absolute*/        
+        }
+        .relative{  /*O posicionamento é relativo ao seu local PADRAO no fluxo*/
+            border: 1px solid blue;
+            position: relative; /*necessário usar top, right, bottom e left para mudar posição. */
+            left: 0px;
+            bottom: 0px;
+        }
+        .absolute{ /* o restante do documento não é afetado pela posição desse bloco. è alinhado ao container que está o elemento. Esse container tem que ter um posicionamento diferente de estático. no exemplo é o container pai (div principal) */
+            border: 1px solid red;
+            background: #f2f2f2;
+            position: absolute; /*necessário usar top, right, bottom e left para mudar posição. */
+            top: 30px;
+            right: 5px;
+        }
+        .fixed{   /* a posicao NÃO é afetada pela barra de rolagem -> muito utilizado para colocar chats nos sites. a posição é baseada na viewport ou janela do navegador*/
+            background: #f253f2;
+            margin: 0px;  /* o bloco de paragrafo(elemento do texto) tem margem pela propria propriedade. para "colar em cima", tira-se ela*/
+            position: fixed; /*necessário usar top, right, bottom e left para mudar posição. */
+            top: 0px;
+            right: 50px;
+            width: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+
+        <h1>Posicionamentos</h1>
+        <p>
+            P1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus aspernatur, aliquam explicabo consectetur obcaecati et assumenda quia culpa, optio pariatur fugit quibusdam accusantium suscipit qui quaerat asperiores debitis repudiandae!
+        </p>
+        <p class="relative">
+            P2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora vero ex tenetur iusto perferendis minima ipsam eaque! Fuga labore rerum suscipit atque blanditiis itaque, in nam expedita quibusdam ducimus!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nam iure. Quibusdam, reiciendis! Necessitatibus itaque excepturi libero beatae vero nesciunt. Ea vero consequatur nemo aut, qui cum inventore nisi culpa!
+        </p>
+        <p class="absolute">
+            P3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis natus aspernatur, aliquam explicabo consectetur obcaecati et assumenda quia culpa, optio pariatur fugit quibusdam accusantium suscipit qui quaerat asperiores debitis repudiandae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptatibus, atque voluptate, unde soluta necessitatibus vero neque quia illo assumenda impedit doloremque porro suscipit. Asperiores minus eveniet debitis nisi officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex omnis deserunt voluptates natus voluptas numquam ab odit dicta, perferendis nam expedita harum dolor cumque hic odio ducimus aperiam neque itaque.
+        </p>
+        <p class="fixed">
+            P4 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quas repudiandae iure. Quaerat aut a totam inventore, velit repellat, praesentium nam placeat reiciendis accusantium aliquid hic. Distinctio necessitatibus accusantium facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore vel quisquam aut consequatur enim officiis suscipit placeat fugiat? Necessitatibus temporibus magnam quasi sunt iste ratione molestiae hic labore neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sunt minus pariatur exercitationem dolor possimus perferendis accusamus atque rerum, sint aspernatur animi impedit asperiores nisi, a quidem, quos suscipit doloremque.
+        </p>
+        <p>
+            P5 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quas repudiandae iure. Quaerat aut a totam inventore, velit repellat, praesentium nam placeat reiciendis accusantium aliquid hic. Distinctio necessitatibus accusantium facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore vel quisquam aut consequatur enim officiis suscipit placeat fugiat? Necessitatibus temporibus magnam quasi sunt iste ratione molestiae hic labore neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sunt minus pariatur exercitationem dolor possimus perferendis accusamus atque rerum, sint aspernatur animi impedit asperiores nisi, a quidem, quos suscipit doloremque.
+        </p>
+        <p>
+            P6 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse quas repudiandae iure. Quaerat aut a totam inventore, velit repellat, praesentium nam placeat reiciendis accusantium aliquid hic. Distinctio necessitatibus accusantium facilis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore vel quisquam aut consequatur enim officiis suscipit placeat fugiat? Necessitatibus temporibus magnam quasi sunt iste ratione molestiae hic labore neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sunt minus pariatur exercitationem dolor possimus perferendis accusamus atque rerum, sint aspernatur animi impedit asperiores nisi, a quidem, quos suscipit doloremque.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
