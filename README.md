@@ -4,7 +4,7 @@
 
 * Primeiro Projeto
     Possui o básico de HTML: 
-        * como fazer links entre as páginas e páginas externas
+        # * como fazer links entre as páginas e páginas externas
         * Como dar nome para a página que está sendo visualizada "na aba"
         * Como incluir links e imagens
         * Como utilizar os Headers -> Cabeçalhos de texto
