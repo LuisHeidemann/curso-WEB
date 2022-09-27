@@ -1,5 +1,8 @@
 /* modelo de caixa*/ 
 
+body{
+    background-color: #f4f4f4;
+}
 .conteudo{    /*para declarar a classe usa-se PONTO! */
     border: 1px solid red;
     padding-top: 20px;   /* os padding dao uma distancia interna da caixa, adicionando os px*/
@@ -43,7 +46,23 @@
 
     clear: both;  /*pode usar left, right, none, both*/;
 }
+.noticia{
+    border: 1px solid rgb(66, 199, 33);
+    background-color: rgb(177, 98, 98);
+    padding: 5px;   /* distancia interna do container */
+    width: 280px;   /* largura do container */  
+    margin: 7px;    /* distância externa do container */
+    float: left;    /* cria elemento flutuante à esquerda */
+}
 .principal{
-    border: 5px solid blue;
-    background-color: grey;
+    border: 1px solid blue;
+    width: 920px;  /*largura do container*/
+}
+.fotos{
+    border: 2px solid goldenrod;
+    background: rgb(109, 35, 109);
+    width: 280px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
 }
