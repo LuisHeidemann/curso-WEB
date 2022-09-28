@@ -45,4 +45,4 @@
         * Posicionamento estático e relativo de blocos/containers
         * Posicionamento absoluto e fixo (utiliza-se para chats, menus e outros itens no site)
         * Sobreposição de elementos (z-index ou Contexto de empilhamento)
-        * Formatação de links
+        * Formatação de links (cor do link, qnd já visitado, quando passa o mouse por cima, qnd mantém pressionado, tirar linha do link)
