@@ -44,3 +44,5 @@
         * Elementos inline, block e inline-block -> posicionamento entre blocos
         * Posicionamento estático e relativo de blocos/containers
         * Posicionamento absoluto e fixo (utiliza-se para chats, menus e outros itens no site)
+        * Sobreposição de elementos (z-index ou Contexto de empilhamento)
+        * Formatação de links
