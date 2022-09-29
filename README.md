@@ -46,3 +46,7 @@
         * Posicionamento absoluto e fixo (utiliza-se para chats, menus e outros itens no site)
         * Sobreposição de elementos (z-index ou Contexto de empilhamento)
         * Formatação de links (cor do link, qnd já visitado, quando passa o mouse por cima, qnd mantém pressionado, tirar linha do link)
+
+## Projeto TecBlog
+    Possui a página criada em aula de um blog de tecnologia
+        *
